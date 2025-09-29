@@ -69,4 +69,4 @@ git clone https://github.com/26ajd/Ahasis.git
 cd Ahasis
 
 # 3. شغّل البرنامج
-python main.py
+python Ahasis.py
