@@ -172,7 +172,7 @@ class EmotionDetectorPro:
         self.create_interface()
         self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
     def create_interface(self):
-        self.root.title("🎭 Emotion Detector Pro 3.4")
+        self.root.title("🎭Ahasis")
         self.root.geometry("1400x900")
         self.root.configure(bg=EmotionConfig.COLORS['background'])
         main_frame = tk.Frame(self.root, bg=EmotionConfig.COLORS['background'])
